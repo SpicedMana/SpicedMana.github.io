@@ -36,12 +36,12 @@ sass:
 #ad-client:
 #ad-slot:
 #bing-verify:
-#email:
+email: contact@spicedmana.com
 twitter: spicedmana
 facebook: spicedmanastudio
 #github-url: username
 #stackoverflow: 123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin: username
+linkedin: spicedmana
 #xing: username
 instagram: spicedmana
 #lastfm: username
@@ -49,10 +49,10 @@ instagram: spicedmana
 #medium: '@username'
 #pinterest: username
 #foursquare: username
-steam: username
+steam: spicedmana
 #dribbble: username
-#youtube: username
-#youtube-channel: channel
+youtube: spicedmana
+youtube-channel: spicedmana
 #soundcloud: username
 #weibo: username
 #flickr: username
@@ -61,6 +61,7 @@ steam: username
 #xmpp: username@server.com
 #hackernews: username
 #add discord
+#add sriktok
 
 # Plugins
 plugins:

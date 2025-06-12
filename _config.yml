@@ -1,14 +1,14 @@
 # Site
-title: Moonrise
-bio: "Minimal, one column jekyll theme."
-description: "Moonrise is a fresh take on the classic Moon"
+title: Spiced Mana
+bio: "Indie gamedev studio."
+description: "We make games that we want to play."
 reading_time: true
 words_per_minute: 200
 logo: "assets/img/logo.png"
 background: "assets/img/moonrise-background.jpg"
 tiled_bg: false # Set this true if you want to tile your background image, otherwise it will be covered
 locale: en_US
-url: https://TolgaTatli.github.io/Moonrise
+url: https://SpicedMana.github.io/
 
 # Jekyll
 permalink: /:title/

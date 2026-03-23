@@ -47,7 +47,7 @@ After the setup is done you can control your texture.
 
 ## Feature breakdown
 
-![*spcd-ctrl_features-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_features-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/407/large/file.jpg?1774228976)
 
 **Balance & Contrast**
 The most basic control you want to have over your texture. Play with texture values to achieve desired outcome.
@@ -92,13 +92,13 @@ Rotation Variation randomly rotates each tile individually.
 
 ### Using several custom textures
 Your mask stack looks something like this:
-![*spcd-ctrl_several-textures-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_several-textures-fig1*](https://i.imgur.com/5q04B7T.png)
 The top fill layer blend mode is set to subtract. You can't simply add another Levels effect to control the subtractive fill layer. If you want to control the top layer you have to either externally edit it and reimport or create another layer with this texture alone, then add your effects and add it back in to the target effect stack using anchor point.
-![*spcd-ctrl_several-textures-fig2*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_several-textures-fig2*](https://cdna.artstation.com/p/marketplace/presentation_assets/005/254/408/large/file.jpg?1774229013)
 You may notice, as you add more textures controlled in this manner Substance Painter will start lagging. Also, it's inconvenient as overall layer count rises.
 
 Instead, you may use the Spiced Controller to quickly and efficiently control both textures.
-![*spcd-ctrl_several-textures-fig3*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_several-textures-fig3*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/409/large/file.jpg?1774229015)
 This way, the effects stack is tidy and optimal. I often have several textures stacked to achieve desired look and have my assets be textured exactly as I imagined and each mask in this way is original and unique.
 
 With complex material layer setups using Spiced Controller will be not only be more optimal but also tidy. Each custom texture is controlled internally by the tool.
@@ -111,9 +111,9 @@ Instead of trying to hack it somehow separating prior components and then mergin
 
 ### Stencils
 You want to paint by hand details to your model. You have downloaded a crack texture from somewhere or photographed it yourself at a park. Without any adjustments it may not fit your needs as raw photo so you bring it to image editing software and make a crack texture.
-!*spcd-ctrl_stencil-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_stencil-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/403/large/file.jpg?1774228899)
 As you add it to Substance Painter and plug it in as stencil for the paint layer you might feel the need of adjusting. This time you can't use anchor points. You have to adjust the texture outside and reimport. 
-!*spcd-ctrl_stencil-fig2*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_stencil-fig2*](https://cdna.artstation.com/p/marketplace/presentation_assets/005/254/404/large/file.jpg?1774228910)
 Iterations take a lot of time so its optimal to have a tool to do it in procedural way.
 
 ### Pattern adjustments
@@ -123,31 +123,31 @@ Besides, if you purchased an "ornamental pack" recently you might have noticed t
 
 ### Seamless Texture
 Using Randomize I played with sliders to make the texture seamless. You can diverge from the original as far as you want or even create something entirely different - especially if you blend several images in the same stack.
-!*spcd-ctrl_seamless-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
-!*spcd-ctrl_seamless-fig2*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_seamless-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/405/large/file.jpg?1774228929)
+![*spcd-ctrl_seamless-fig2*](https://cdna.artstation.com/p/marketplace/presentation_assets/005/254/418/large/file.jpg?1774231489)
 
 ### Using Polar Coordinates
 To make a really lazy example I modelled a "hat" and quickly unwrapped it using different methods.
-!*spcd-ctrl_polar-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_polar-fig1*](https://i.imgur.com/5q04B7T.png)
 Left hat is unwrapped so that there is the least amount of stretch on the brim UV island and Right hat is unwrapped so it is all perfect quads. Each method has its pros and cons but I wanted to highlight how you may mitigate some by using the Spiced Controller.
-!*spcd-ctrl_polar-fig2*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_polar-fig2*](https://i.imgur.com/5q04B7T.png)
 You might notice that the perfect quad UV has visible problems due to the stretch.
 As for the controls and the setup I plugged in the Stripes procedural as the input and just enabled the Polar Coordinates switch.
-!*spcd-ctrl_polar-fig3*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_polar-fig3*](https://i.imgur.com/5q04B7T.png)
 I turned down the Shift to 0 so the stripes are straight.
 
 You may create unique patterns using this feature. To visualize it better I mapped the Stripes onto a plane.
-!*spcd-ctrl_polar-fig4*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
-!*spcd-ctrl_polar-fig5*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_polar-fig4*](https://i.imgur.com/5q04B7T.png)
+![*spcd-ctrl_polar-fig5*](https://i.imgur.com/5q04B7T.png)
 Only changing the Shift slightly you get a different result.
 
 I created this pattern really quicky using some stock Substance Painter texture I picked randomly (not a cherrypick)
-!*spcd-ctrl_polar-fig6*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
-!*spcd-ctrl_polar-fig7*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_polar-fig6*](https://i.imgur.com/5q04B7T.png)
+![*spcd-ctrl_polar-fig7*](https://i.imgur.com/5q04B7T.png)
 
 You can then edit it further by manually masking it with paint layer or whatever you need and then once again use the tool to modify it.
-!*spcd-ctrl_polar-fig8*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
-!*spcd-ctrl_polar-fig9*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+![*spcd-ctrl_polar-fig8*](https://i.imgur.com/5q04B7T.png)
+![*spcd-ctrl_polar-fig9*](https://i.imgur.com/5q04B7T.png)
 In this case I used bottom output as an anchor point for the final output and added some paint to remove remnants of the noise which I didn't like.
 
 ### Your own way

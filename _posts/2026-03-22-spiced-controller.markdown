@@ -46,7 +46,8 @@ Drag and drop the **'Spiced Controller.sbsar'** to Substance Painter asset windo
 
 To access the tool search for relevant **tags**.  
 There are **extra tags** for quick search.  
-Typing  ***xxx***, ***rrr***, ***ctrl***, ***scsc*** will bring up the tool alone.
+Typing  ***xxx***, ***rrr***, ***ctrl***, ***scsc*** will bring up the tool alone.  
+![*spcd-ctrl_search-context*](https://i.imgur.com/jiZJ76O.png)
 
 Scroll down and find the **Image Inputs** where you can select desired texture.
 If you want to use the tool to control Color image instead, then navigate to the top and choose from dropdown menu the **Color_Output** option. 
@@ -80,7 +81,7 @@ All adjustments are non-destructive and parameter-driven, making the tool safe f
 
 ## Feature breakdown
 
-![*spcd-ctrl_features-fig1*](https://mega.nz/file/liwCmTaS#6sCyrmDJltfwBL5Uk0xhWq-bjjtNrDbnKPuuQUZOrLc)
+![*spcd-ctrl_features-fig1*](https://i.imgur.com/AEOqbh6.png)
 
 **Balance & Contrast**  
 The most basic control you want to have over your texture.  
@@ -144,7 +145,7 @@ You can create some cool patterns with or texture circular surfaces independentl
 ### Using several custom textures
 Your mask stack looks something like this:
 
-![*spcd-ctrl_several-textures-fig1*](https://mega.nz/file/lnoymDBA#S-l1rMfH75q0D_pEfRU-TV3o3avusCrXJf2tCJ4viao)
+![*spcd-ctrl_several-textures-fig1*](https://i.imgur.com/lxbnyyW.png)
 
 The top fill layer blend mode is set to subtract. You can't simply add another Levels effect to control the subtractive fill layer. To control the top layer you have to either externally edit it and reimport or create another layer with this texture alone, then add your effects and add it back in to the target effect stack using anchor point.
 
@@ -200,32 +201,32 @@ You can diverge from the original as far as you want or even create something en
 ### Using Polar Coordinates
 To make a really lazy example I modelled a "hat" and quickly unwrapped it using different methods.
 
-![*spcd-ctrl_polar-fig1*](https://i.imgur.com/5q04B7T.png)
+![*spcd-ctrl_polar-fig1*](https://i.imgur.com/WxdYVHl.png)
 
 Left hat is unwrapped so that there is the least amount of stretch on the brim UV island and Right hat is unwrapped so it is all perfect quads. Each method has its pros and cons but I wanted to highlight how you may mitigate some by using the Spiced Controller.
 
-![*spcd-ctrl_polar-fig2*](https://i.imgur.com/5q04B7T.png)
+![*spcd-ctrl_polar-fig2*](https://i.imgur.com/n29JQps.png)
 
 You might notice that the perfect quad UV has visible problems due to the stretch.
 As for the controls and the setup I plugged in the Stripes procedural as the input and just enabled the Polar Coordinates switch.
 
-![*spcd-ctrl_polar-fig3*](https://i.imgur.com/5q04B7T.png)
+![*spcd-ctrl_polar-fig3*](https://i.imgur.com/diZijTj.png)
 
 I turned down the Shift to 0 so the stripes are straight.
 
 You may create unique patterns using this feature. To visualize it better I mapped the Stripes onto a plane.
-![*spcd-ctrl_polar-fig4*](https://i.imgur.com/5q04B7T.png)
-![*spcd-ctrl_polar-fig5*](https://i.imgur.com/5q04B7T.png)
+![*spcd-ctrl_polar-fig4*](https://i.imgur.com/PccIUB7.png)
+![*spcd-ctrl_polar-fig5*](https://i.imgur.com/bFTNiaf.png)
 Only changing the Shift slightly you get a different result.
 
 I created this pattern really quicky using some stock Substance Painter texture I picked randomly (not a cherrypick)
-![*spcd-ctrl_polar-fig6*](https://i.imgur.com/5q04B7T.png)
-![*spcd-ctrl_polar-fig7*](https://i.imgur.com/5q04B7T.png)
+![*spcd-ctrl_polar-fig6*](https://i.imgur.com/hlCvydF.png)
+![*spcd-ctrl_polar-fig7*](https://i.imgur.com/qVPHS3u.png)
 
 You can then edit it further by manually masking it with paint layer or whatever you need and then once again use the tool to modify it.
 
-![*spcd-ctrl_polar-fig8*](https://i.imgur.com/5q04B7T.png)
-![*spcd-ctrl_polar-fig9*](https://i.imgur.com/5q04B7T.png)
+![*spcd-ctrl_polar-fig8*](https://i.imgur.com/XjPCwz1.png)
+![*spcd-ctrl_polar-fig9*](https://i.imgur.com/YBaAtOr.png)
 
 In this case I used bottom output as an anchor point for the final output and added some paint to remove remnants of the noise which I didn't like.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Spiced Controller"
-date: 2024-02-11
+date: 2026-03-22
 excerpt: "A Substance Painter Procedural Tool."
-tags: [substance painter, image, feature, tool, procedural, spiced mana, spiced controller, mikoxvi, game dev, texturing, 3d, blender]
+tags: [substance painter, image, tool, procedural, spiced mana, spiced controller, mikoxvi, game dev, texturing, 3d, blender]
 feature: https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215
 comments: true
 ---
 
-# [Spiced Controller](https://www.spicedmana.com/posts/)
+# [Spiced Controller](https://www.artstation.com/a/51211002)
 ### Substance 3D Painter - Custom Texture Controller
   
 Textures shipped with Substance Painter have basic procedural controls such as histogram scan. I wanted to control my textures similarly instead of tweaking them outside Substance Painter or building big stacks of layered effects and using anchor points.
@@ -18,14 +18,14 @@ You can use it for stencils, fill layers or anything that has an image input.
   
 This tool adds following controls to input image:
 
--   **Balance**
--   **Contrast**
--   **Levels**
--   **Blur**
--   **Invert**
--   **Mirror**
--   **Randomize / Scatter**
--   **Polar Coordinates**
+- **Balance**
+- **Contrast**
+- **Levels**
+- **Blur**
+- **Invert**
+- **Mirror**
+- **Randomize / Scatter**
+- **Polar Coordinates**
 
 Works with Color and Grayscale.
 
@@ -46,8 +46,9 @@ If you want to use the tool to control Color image instead, then navigate to the
 After the setup is done you can control your texture.
 
 ## Feature breakdown
-[img]
-*spcd-ctrl_features-fig1*
+
+![*spcd-ctrl_features-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+
 **Balance & Contrast**
 The most basic control you want to have over your texture. Play with texture values to achieve desired outcome.
 
@@ -64,18 +65,24 @@ Blurs the input image. Softens the transition between values. You can manually i
 **Toggles**
 There are several toggles included in the Spiced Controller.
 
- - **Invert**
- - **Randomize Switch**
- - **Mirror**
- - **Use Polar Coordinates**
+- **Invert**
+- **Randomize Switch**
+- **Mirror**
+- **Use Polar Coordinates**
  
- **Invert** is a handy toggle to quickly invert the image. This is impossible to do with stock Substance Painter without adding modifiers/effects to the layer stack.
+**Invert** is a handy toggle to quickly invert the image. This is impossible to do with stock Substance Painter without adding modifiers/effects to the layer stack.
 
 **Randomize** is a feature you want to use when you need the texture to be scattered or randomized in some way. You can also use it to create Brush Pattern. Mainly you don't have to know what exactly does what, just play with it. You can also use it if your texture isn't seamless or doesn't tile to make it tile by using this feature.
 
 Briefly explaining the Randomize parameters:
 
-Mask Size controls the scatter tile size. Mask Precision is the    contrast setting for the scatter tile size. Mask Warping deforms the    scatter tile. Disorder scatters the tiles on the UV. Size Variation    randomly scales the tiles. You can input a manual value for more    control. Tiling creates more tiles and overall scale of the effect.    Luminosity Variation randomly darkens tiles. Rotation rotates all    tiles. Rotation Variation randomly rotates each tile individually.
+Mask Size controls the scatter tile size.
+Mask Precision is the contrast setting for the scatter tile size.
+Mask Warping deforms the scatter tile.
+Disorder scatters the tiles on the UV. Size Variation randomly scales the tiles. You can input a manual value for more control.
+Tiling creates more tiles and overall scale of the effect.
+Luminosity Variation randomly darkens tiles. Rotation rotates all tiles.
+Rotation Variation randomly rotates each tile individually.
 
 **Mirror** makes the image symmetrical along given axis. You can choose X or Y axis and input the offset. It's great for creating or cleaning up patterns made by hand. There is also an option for corner mirroring.
 
@@ -85,16 +92,13 @@ Mask Size controls the scatter tile size. Mask Precision is the    contrast sett
 
 ### Using several custom textures
 Your mask stack looks something like this:
-[img]
-*spcd-ctrl_several-textures-fig1*
+![*spcd-ctrl_several-textures-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 The top fill layer blend mode is set to subtract. You can't simply add another Levels effect to control the subtractive fill layer. If you want to control the top layer you have to either externally edit it and reimport or create another layer with this texture alone, then add your effects and add it back in to the target effect stack using anchor point.
-[img]
-*spcd-ctrl_several-textures-fig2*
+![*spcd-ctrl_several-textures-fig2*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 You may notice, as you add more textures controlled in this manner Substance Painter will start lagging. Also, it's inconvenient as overall layer count rises.
 
 Instead, you may use the Spiced Controller to quickly and efficiently control both textures.
-[img]
-*spcd-ctrl_several-textures-fig3*
+![*spcd-ctrl_several-textures-fig3*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 This way, the effects stack is tidy and optimal. I often have several textures stacked to achieve desired look and have my assets be textured exactly as I imagined and each mask in this way is original and unique.
 
 With complex material layer setups using Spiced Controller will be not only be more optimal but also tidy. Each custom texture is controlled internally by the tool.
@@ -107,11 +111,9 @@ Instead of trying to hack it somehow separating prior components and then mergin
 
 ### Stencils
 You want to paint by hand details to your model. You have downloaded a crack texture from somewhere or photographed it yourself at a park. Without any adjustments it may not fit your needs as raw photo so you bring it to image editing software and make a crack texture.
-[img]
-*spcd-ctrl_stencil-fig1*
+!*spcd-ctrl_stencil-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 As you add it to Substance Painter and plug it in as stencil for the paint layer you might feel the need of adjusting. This time you can't use anchor points. You have to adjust the texture outside and reimport. 
-[img]
-*spcd-ctrl_stencil-fig2*
+!*spcd-ctrl_stencil-fig2*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 Iterations take a lot of time so its optimal to have a tool to do it in procedural way.
 
 ### Pattern adjustments
@@ -121,42 +123,31 @@ Besides, if you purchased an "ornamental pack" recently you might have noticed t
 
 ### Seamless Texture
 Using Randomize I played with sliders to make the texture seamless. You can diverge from the original as far as you want or even create something entirely different - especially if you blend several images in the same stack.
-[img]
-*spcd-ctrl_seamless-fig1*
-[img]
-*spcd-ctrl_seamless-fig2*
+!*spcd-ctrl_seamless-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+!*spcd-ctrl_seamless-fig2*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 
 ### Using Polar Coordinates
 To make a really lazy example I modelled a "hat" and quickly unwrapped it using different methods.
-[img]
-*spcd-ctrl_polar-fig1*
+!*spcd-ctrl_polar-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 Left hat is unwrapped so that there is the least amount of stretch on the brim UV island and Right hat is unwrapped so it is all perfect quads. Each method has its pros and cons but I wanted to highlight how you may mitigate some by using the Spiced Controller.
-[img]
-*spcd-ctrl_polar-fig2*
+!*spcd-ctrl_polar-fig2*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 You might notice that the perfect quad UV has visible problems due to the stretch.
 As for the controls and the setup I plugged in the Stripes procedural as the input and just enabled the Polar Coordinates switch.
-[img]
-*spcd-ctrl_polar-fig3*
+!*spcd-ctrl_polar-fig3*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 I turned down the Shift to 0 so the stripes are straight.
 
 You may create unique patterns using this feature. To visualize it better I mapped the Stripes onto a plane.
-[img]
-*spcd-ctrl_polar-fig4*
-[img]
-*spcd-ctrl_polar-fig5*
+!*spcd-ctrl_polar-fig4*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+!*spcd-ctrl_polar-fig5*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 Only changing the Shift slightly you get a different result.
 
 I created this pattern really quicky using some stock Substance Painter texture I picked randomly (not a cherrypick)
-[img]
-*spcd-ctrl_polar-fig6*
-[img]
-*spcd-ctrl_polar-fig7*
+!*spcd-ctrl_polar-fig6*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+!*spcd-ctrl_polar-fig7*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 
 You can then edit it further by manually masking it with paint layer or whatever you need and then once again use the tool to modify it.
-[img]
-*spcd-ctrl_polar-fig8*
-[img]
-*spcd-ctrl_polar-fig9*
+!*spcd-ctrl_polar-fig8*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
+!*spcd-ctrl_polar-fig9*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215)
 In this case I used bottom output as an anchor point for the final output and added some paint to remove remnants of the noise which I didn't like.
 
 ### Your own way
@@ -165,3 +156,4 @@ I'm certain this tool will be useful to anyone who loves to manipulate and blend
 Download
 =
 ## [Artstation](https://www.artstation.com/a/51211002)
+

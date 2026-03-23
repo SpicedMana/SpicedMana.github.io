@@ -203,11 +203,12 @@ To make a really lazy example I modelled a "hat" and quickly unwrapped it using 
 
 ![*spcd-ctrl_polar-fig1*](https://i.imgur.com/WxdYVHl.png)
 
-Left hat is unwrapped so that there is the least amount of stretch on the brim UV island and Right hat is unwrapped so it is all perfect quads. Each method has its pros and cons but I wanted to highlight how you may mitigate some by using the Spiced Controller.
+Left hat is unwrapped so there's least stretch on the brim UV island and Right hat is unwrapped so it's all perfect quads.  
+Each method has its pros and cons but I wanted to highlight how you may mitigate some by using the Spiced Controller.
 
 ![*spcd-ctrl_polar-fig2*](https://i.imgur.com/n29JQps.png)
 
-You might notice that the perfect quad UV has visible problems due to the stretch.
+Notice that the perfect quad UV has visible problems due to stretching.
 As for the controls and the setup I plugged in the Stripes procedural as the input and just enabled the Polar Coordinates switch.
 
 ![*spcd-ctrl_polar-fig3*](https://i.imgur.com/diZijTj.png)
@@ -217,9 +218,10 @@ I turned down the Shift to 0 so the stripes are straight.
 You may create unique patterns using this feature. To visualize it better I mapped the Stripes onto a plane.
 ![*spcd-ctrl_polar-fig4*](https://i.imgur.com/PccIUB7.png)
 ![*spcd-ctrl_polar-fig5*](https://i.imgur.com/bFTNiaf.png)
-Only changing the Shift slightly you get a different result.
+Only slightly changing the Shift you get a different result.
 
-I created this pattern really quicky using some stock Substance Painter texture I picked randomly (not a cherrypick)
+I created this pattern really quicky using some stock Substance Painter texture I picked randomly.  
+(not a cherrypick)
 ![*spcd-ctrl_polar-fig6*](https://i.imgur.com/hlCvydF.png)
 ![*spcd-ctrl_polar-fig7*](https://i.imgur.com/qVPHS3u.png)
 

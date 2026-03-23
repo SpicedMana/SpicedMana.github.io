@@ -2,7 +2,7 @@
 layout: post
 title: "Spiced Controller"
 date: 2026-03-22
-excerpt: "A Substance Painter Procedural Tool."
+excerpt: "A Substance Painter Procedural Tool"
 tags: [substance painter, utility, image, tool, procedural, spiced mana, spiced controller, mikoxvi, game dev, texturing, 3d, blender]
 feature: https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/305/large/file.jpg?1774211215
 comments: true
@@ -55,11 +55,11 @@ By default the tool uses **Grayscale_Output**.
 Once set up, you can immediately start adjusting the texture.
 
 ### How It Works
-Spiced Controller acts as a preprocessing node:
+Spiced Controller acts as a preprocessing node:  
 Input Image → Spiced Controller (processing stack) → Output Image 
 
 
-The order of operations is as follows: 
+The **order** of operations is as follows: 
 
 **Transformation**  
 Transform 2D → Rotation → Polar Coordinates  
@@ -73,9 +73,9 @@ Mirror → Invert → Blur
 **Distribution**  
 Randomize  
 
-All adjustments are non-destructive and parameter-driven, making the tool safe for iterative workflows and team environments where textures may be reused or updated.  
+All adjustments are non-destructive and parameter-driven, making the tool safe for iterative workflows and team environments where textures may be reused or updated.   
 
-> Earlier operations affect all subsequent ones.
+> Earlier operations affect all subsequent ones.  
 > For example, applying Levels before Randomize affects each generated tiles
 
 ## Feature breakdown

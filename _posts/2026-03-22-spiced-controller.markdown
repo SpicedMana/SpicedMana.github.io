@@ -35,7 +35,7 @@ Works with Color and Grayscale.
 >
 > Moreover, it's inefficient to create too many anchor points layer for every custom texture. Substance Painter will reference this data every time you tweak something.  
 > Project will start lagging. This tool gathers basic functionalities in one place.
-
+ <br> <br>
 # Usage
 
 ## Quick setup
@@ -202,8 +202,9 @@ You can then edit it further by manually masking it with paint layer or whatever
 In this case I used bottom output as an anchor point for the final output and added some paint to remove remnants of the noise which I didn't like.
 
 ### Your own way
-I'm certain this tool will be useful to anyone who loves to manipulate and blend textures. You will come up with your own ways the tool will be useful for you. I'm using it very often, especially when using my own textures created outside Substance suite in the Substance suite. This is a basic tool puts together fundamental controls so you can adjust your textures and realize your vision.
+I'm certain this tool will be useful to anyone who loves to manipulate and blend textures. You will come up with your own ways the tool will be useful for you. I'm using it very often, especially when using my own textures created outside Substance suite in the Substance suite. This is a basic tool puts together fundamental controls so you can adjust your textures and realize your vision.  
 
+ <br> <br>
 Download
 =
 ## [Artstation](https://www.artstation.com/a/51211002)

@@ -8,7 +8,6 @@ feature: https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/3
 comments: true
 ---
 
-
 # [Spiced Controller](https://www.artstation.com/a/51211002)
 ### Substance 3D Painter - Custom Texture Controller
   
@@ -68,11 +67,11 @@ Out Low/High are the bottom keys. Lowers the contrast by fading the darkest shad
 
 Low/Mid/High sliders are the top keys. Mid key is the Gamma while Low and High controls black and white values. You can set Low to 1.0 and High to 0.0 to invert the image. The same rule applies to Out sliders.
 
-**Blur**
-Blurs the input image. Softens the transition between values.  
- You can manually input different number as the slider is limited to 0-1 values.
+**Blur**  
+Softens the transition between values.  
+You can manually input different number as the slider is limited to 0-1 values.
 
-**Toggles**
+**Toggles**  
 There are several toggles included in the Spiced Controller.
 
 - **Invert**
@@ -86,21 +85,21 @@ Also, not possible to invert in stack without isolating the image.
 
 **Randomize** is a feature you want to use when you need the texture to be scattered or randomized in some way. You can also use it to create Brush Pattern.  
 
-Mainly you don't have to know exactly what does what, just play with it. 
+You don't have to know exactly what does what, just play with it. 
 You can also use it if your texture isn't seamless or doesn't tile.
 Make it tile by using this feature.
 
 > Briefly explaining the Randomize parameters: 
 > 
 > Mask Size controls the scatter tile size.  
-> Mask Precision is the contrast setting for the scatter tile size.
-> Mask Warping deforms the scatter tile.
-> Disorder scatters the tiles on the UV.
-> Size Variation randomly scales the tiles. You can input a manual value for more control.
-> Tiling creates more tiles and overall scale of the effect.
-> Luminosity Variation randomly darkens tiles.
-> Rotation rotates all tiles. 
-> Rotation Variation randomly rotates each tile individually.
+> Mask Precision is the contrast setting for the scatter tile size.  
+> Mask Warping deforms the scatter tile.  
+> Disorder scatters the tiles on the UV.  
+> Size Variation randomly scales the tiles. You can input a manual value for more control.  
+> Tiling creates more tiles and overall scale of the effect.  
+> Luminosity Variation randomly darkens tiles.  
+> Rotation rotates all tiles.  
+> Rotation Variation randomly rotates each tile individually.  
 
 **Mirror** makes the image symmetrical on selected axis.  
 You can choose X or Y axis and input custom offset.  
@@ -208,4 +207,3 @@ I'm certain this tool will be useful to anyone who loves to manipulate and blend
 Download
 =
 ## [Artstation](https://www.artstation.com/a/51211002)
-

@@ -80,7 +80,7 @@ All adjustments are non-destructive and parameter-driven, making the tool safe f
 
 ## Feature breakdown
 
-![*spcd-ctrl_features-fig1*](https://cdnb.artstation.com/p/marketplace/presentation_assets/005/254/407/large/file.jpg?1774228976)
+![*spcd-ctrl_features-fig1*](https://mega.nz/file/liwCmTaS#6sCyrmDJltfwBL5Uk0xhWq-bjjtNrDbnKPuuQUZOrLc)
 
 **Balance & Contrast**  
 The most basic control you want to have over your texture.  
@@ -144,7 +144,7 @@ You can create some cool patterns with or texture circular surfaces independentl
 ### Using several custom textures
 Your mask stack looks something like this:
 
-![*spcd-ctrl_several-textures-fig1*](https://i.imgur.com/5q04B7T.png)
+![*spcd-ctrl_several-textures-fig1*](https://mega.nz/file/lnoymDBA#S-l1rMfH75q0D_pEfRU-TV3o3avusCrXJf2tCJ4viao)
 
 The top fill layer blend mode is set to subtract. You can't simply add another Levels effect to control the subtractive fill layer. To control the top layer you have to either externally edit it and reimport or create another layer with this texture alone, then add your effects and add it back in to the target effect stack using anchor point.
 
